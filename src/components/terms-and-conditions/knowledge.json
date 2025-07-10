@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "name": "Website Terms of Use",
+      "description": "This is the introduction section.",
+      "children": []
+      
+    },
+    {
+      "id": 2,
+      "name": "Notice specific to software available on this website",
+  
+      "description": "The terms and conditions are listed here.",
+      "children": []
+    },
+    {
+      "id": 3,
+      "name": "meMate does not provide Tax Advice",
+  
+      "description": "The terms and conditions are listed here.",
+      "children": []
+    },
+    {
+      "id": 4,
+      "name": "Links to third-party sites",
+  
+      "description": "The terms and conditions are listed here.",
+      "children": []
+    },
+    {
+      "id": 5,
+      "name": "Applicable law",
+  
+      "description": "The terms and conditions are listed here.",
+      "children": []
+    },
+    {
+      "id": 6,
+      "name": "Intellectual property rights",
+  
+      "description": "The terms and conditions are listed here.",
+      "children": []
+    },
+    {
+      "id": 7,
+      "name": "Shopping cart",
+  
+      "description": "The terms and conditions are listed here.",
+      "children": []
+    }
+  ]
+  

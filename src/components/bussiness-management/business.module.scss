@@ -1,0 +1,44 @@
+.homePageContent{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    .homePlatform{
+                h2,h1{
+                color: #29292b;
+                font-family: sequel_sans_semi_bold_disp !important;
+                font-size: 42px;
+                font-style: normal;
+                font-weight: 420;
+                line-height: 49.56px;
+                margin: auto;
+                max-width: 741px;
+                text-align: center;
+                }
+                @media screen and (max-width: 767px) {
+                    h1 ,h2 {
+                        font-size: 20px;
+                        letter-spacing: 1px;
+                        line-height: 26px;
+                    }
+                }
+}
+.imageWrapper{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    width: 100%; 
+}
+.macBookImage {
+    margin: 20px auto 0;
+    text-align: center;
+    .bigimgmacMain{
+        img{
+            width: 100%;
+        }
+    }
+}
+.bigimgmac {
+    position: relative;
+}
+}
