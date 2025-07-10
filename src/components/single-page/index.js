@@ -156,23 +156,28 @@ const breadcrumbList = post ? {
 
 
 
-
   return (
     <div className='bgshadowwrapper'>
-       <Helmet>
-        <title>{post.seo_title}</title>
-        <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content={post.seo_title}/>
-<meta name="twitter:description" content={post.meta_description}/>
-<meta name="twitter:image" content={post.featured_img_url} />
-<meta name="twitter:image:alt" content={post.featured_img_alt} />
-
-<meta property="og:title" content={post.seo_title} />
-<meta property="og:description" content={post.meta_description} />
-<meta property="og:image" content={post.featured_img_url} />
-<meta property="og:url" content="https://memate.au/news/everything-you-need-to-know-about-the-impact-of-management-software-on-small-businesses" />
-
-      </Helmet>
+    <Helmet>
+      <title>{post.seo_title}</title>
+      <meta name="description" content={post.meta_description} />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:site" content="@YourTwitterHandle" /> 
+      <meta name="twitter:creator" content="@PostAuthorHandle" /> 
+      <meta name="twitter:title" content={post.seo_title} />
+      <meta name="twitter:description" content={post.meta_description} />
+      <meta name="twitter:image" content={post.featured_img_url} />
+      <meta name="twitter:image:alt" content={post.featured_img_alt} />
+      <meta property="og:type" content="article" /> 
+      <meta property="og:title" content={post.seo_title} />
+      <meta property="og:description" content={post.meta_description} />
+      <meta property="og:image" content={post.featured_img_url} />
+      <meta property="og:image:secure_url" content={post.featured_img_url.replace("http://", "https://")} /> 
+      <meta property="og:image:width" content="1200" /> 
+      <meta property="og:image:height" content="630" /> 
+      <meta property="og:image:alt" content={post.featured_img_alt} />
+      <meta property="og:url" content={`https://memate.com.au/news/${post.slug}`} />
+    </Helmet>
        {article && breadcrumbList && <NewsSchema article={article} breadcrumbList={breadcrumbList} />}
 
       <div className="parent parentSingle ">
@@ -193,10 +198,10 @@ const breadcrumbList = post ? {
         <div className="stickySocial">
           <p>Share</p>
           <ShareComponent
-            url={`https://memate.au/news/${post.slug}`}
-            title={post.title}
+            url={`https://memate.com.au/news/${post.slug}`}
+            title={post.seo_title}
             image={post.featured_img_url}
-            description={post.description}
+            description={post.meta_description}
           />
         </div>
       </div>

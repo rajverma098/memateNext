@@ -22,13 +22,14 @@ import LessBusyness from "./less-busyness";
 const LandingPage = ({postsLatest, updates}) => {
   return (
    <>
-  <Helmet>
+  {/* <Helmet>
     
   <title>Business Management Software, ERP system, CRM & Project Management in One</title>
   <meta name="description" content="All-in-one business management software and ERP software for Australian SMEs, with built-in CRM and project management tools." />
   <meta property="og:title" content="Business Management Software, ERP system, CRM & Project Management in One" />
   <meta property="og:description" content="All-in-one business management software and ERP software for Australian SMEs, with built-in CRM and project management tools." />
-</Helmet>
+
+</Helmet> */}
     <Layout>
       <BussinessManagement/>
       <LessBusyness />

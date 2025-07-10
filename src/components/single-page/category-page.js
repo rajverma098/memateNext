@@ -107,8 +107,8 @@ const postCategoryTitle = postTagsslug?.data[0].category.title
           
         <meta property="og:title" content="Post Title" />
          <meta property="og:description" content="Post Description" />
-         <meta property="og:image" content="https://memate.au/image.jpg" />
-         <meta property="og:url" content="https://memate.au/news/post-slug" />
+         <meta property="og:image" content="https://memate.com.au/image.jpg" />
+         <meta property="og:url" content="https://memate.com.au/news/post-slug" />
        </Helmet>
        <div className="parent parentSingle">
        <div className="pageBreadcrumbs">
@@ -123,7 +123,7 @@ const postCategoryTitle = postTagsslug?.data[0].category.title
    <div className="stickySocial">
      <p>Share</p>
      <ShareComponent
-   url={`https://memate.au/news/${post?.id}`}
+   url={`https://memate.com.au/news/${post?.id}`}
    title={post?.title}
    image={post?.featured_img_url}
    description={post?.description}

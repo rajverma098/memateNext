@@ -111,8 +111,8 @@ const NewsTagsComponents = () => {
         <meta property="og:title" content={post?.title} />
         <meta name="description" content={post?.description} />
          <meta property="og:description" content={post?.description} />
-         <meta property="og:image" content="https://memate.au/image.jpg" />
-         <meta property="og:url" content="https://memate.au/news/post-slug" />
+         <meta property="og:image" content="https://memate.com.au/image.jpg" />
+         <meta property="og:url" content="https://memate.com.au/news/post-slug" />
        </Helmet>
        <div className="parent parentSingle">
        <div className="pageBreadcrumbs">
@@ -127,7 +127,7 @@ const NewsTagsComponents = () => {
    <div className="stickySocial">
      <p>Share</p>
      <ShareComponent
-   url={`https://memate.au/news/${post?.slug}`}
+   url={`https://memate.com.au/news/${post?.slug}`}
    title={post?.title}
    image={post?.featured_img_url}
    description={post?.description}
