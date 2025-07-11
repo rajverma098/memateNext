@@ -1,0 +1,32 @@
+.client-prof {
+  position: relative;
+}
+
+.client-prof img {
+  width: 100%;
+  object-fit: scale-down;
+}
+
+p.ownwers-disp {
+  color: #fff;
+  font-family: "sequel_sans_roman_head", sans-serif !important;
+  font-size: 25.62px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 110%;
+  margin: 0px;
+  position: absolute;
+  bottom: 13px;
+  left: 23px;
+  text-align: left;
+}
+.post-card-description {
+  width: 333px;
+  height: 47px;
+  text-align: left;
+  word-wrap: break-word;
+  position: absolute;
+  bottom: 15px;
+  left: 10px;
+  white-space: normal;
+}

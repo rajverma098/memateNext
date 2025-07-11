@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import { blogSingle } from '@/utils/blogApi'; // Update path as needed
+import { blogSingle } from '@/utils/blogApi'; 
 
 export const fetchBlogSingle = createAsyncThunk(
   'blogSingle/fetchBlogSingle',
